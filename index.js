@@ -1,8 +1,8 @@
 const express = require("express");
 const app = express();
-
-
 const porta = 3000;
+
+
 
 const usuario = require("./rotas/usuario");
 const nota= require("./rotas/nota");
